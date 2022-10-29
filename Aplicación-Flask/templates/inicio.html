@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inicio BD</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../static/css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
+<script language="javascript" type="text/javascript"></script>
+</head>
+<body style="background-color:#0f4c75;">
+<div id="site_title_bar_wrapper">
+  <div id="site_title_bar">
+    <div id="site_title">
+      <h1><a href="#">Inicio BD<span>Has accedido a la base de datos</span></a></h1>
+    </div>
+  </div>
+</div>
+
+<div id="banner_wrapper">
+  <div id="banner">
+    <div id="banner_slider">
+      <div id="one" class="contentslider">
+        <div class="cs_article">
+          <div class="cs_article_inner">
+            <div class="img_frame"><img src="../static/img/mysql.jpg" alt=""/></div>
+            <h3>Profesores y asignaturas registrados:</h3>
+            {% for profesor,asignatura in registros -%}
+                <p><strong>{{profesor}}</strong> - {{asignatura}}</p>
+                {% endfor -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
