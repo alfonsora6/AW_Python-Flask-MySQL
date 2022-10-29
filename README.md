@@ -28,7 +28,7 @@ Una vez iniciemos el entorno virtual, instalaremos la paquetería requerida:
 
 ## Creación de usuario, base de datos y tablas.
 
-Seguiremos los pasos mencionados en el fichero [2asir.sql](2asir.sql)
+Seguiremos los pasos indicados en el fichero [2asir.sql](2asir.sql)
 
 ## Ejecución del programa python.
 
