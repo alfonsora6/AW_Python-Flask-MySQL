@@ -6,8 +6,7 @@ def Conectar_BD(maquina,usuario,contraseña,nombrebd):
     try:
         db=pymysql.connect(host=maquina,user=usuario,password=contraseña,database=nombrebd)
         print("\nHas accedido a la base de datos.")
-        return db
-        
+        return db       
     except:
         print("Error, no se puede conectar con la base de datos")
         sys.exit(1)
