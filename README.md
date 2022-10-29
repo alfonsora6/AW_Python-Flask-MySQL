@@ -74,7 +74,9 @@ Probaremos a introducir unas credenciales incorrectas:
 Vemos que nos redirecciona de nuevo a la página de login, y además nos muestra un mensaje indicando que las credenciales introducidas son incorrectas.
 
 Ahora sí, accedemos con las credenciales del usuario de la base de datos:
+
 Usuario: **alfonso**
+
 Contraseña: **passbd**
 
 ![Inicio](Aplicación-Flask/img/inicio.png)
