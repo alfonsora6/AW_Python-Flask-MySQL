@@ -55,7 +55,7 @@ Ejecutamos la aplicación:
 
 ![Ejecución aplicación](Aplicación-Flask/img/Iniciamos_app.png)
 
-Accedemos desde el navegador web, definiendo puerto definido:
+Accedemos desde el navegador web, con el puerto definido:
 
 ![Login](Aplicación-Flask/img/login.png)
 
