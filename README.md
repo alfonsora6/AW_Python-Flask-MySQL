@@ -77,7 +77,7 @@ Ahora sí, accedemos con las credenciales del usuario de la base de datos:
 
 ![Inicio](Aplicación-Flask/img/inicio.png)
 
-Como vemos, se muestra la página de inicio, con información sobre una consulta referente a las tablas "Profesor" y "Asignatura".
+Como vemos, se muestra la página de inicio, con información sobre una consulta referente a las tablas **"Profesor"** y **"Asignatura"**.
 
 
 
