@@ -25,3 +25,8 @@ Desactivar el entorno virtual:
 Una vez iniciemos el entorno virtual, instalaremos la paquetería requerida:
 
 `pip install -r requirements.txt`
+
+## Ejecución del programa python.
+
+![Comprobación programa python](Prueba del programa/Ejecución-programa(Pruebas).png)
+
