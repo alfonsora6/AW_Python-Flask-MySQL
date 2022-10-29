@@ -3,7 +3,7 @@
 --Creación de BD y usuario (Definiendole los privilegios)
 
 CREATE DATABASE alumnos;
-CREATE USER 'alfonso'@'%' IDENTIFIED BY 'proyectobd';
+CREATE USER 'alfonso'@'%' IDENTIFIED BY 'passbd';
 GRANT ALL PRIVILEGES ON alumnos.* to 'alfonso'@'%';
 FLUSH PRIVILEGES;
 USE 2asir;
