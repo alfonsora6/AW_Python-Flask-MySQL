@@ -40,6 +40,8 @@ Podemos encontrar los ficheros [programa.py](Programa/programa.py) y [funciones.
 
 ## Ejecución de la aplicación Flask
 
+Podemos encontrar los ficheros la aplicación web (Python + Flask + MySQL) en el directorio [Aplicación-Flask](Aplicación-Flask). 
+
 Antes que nada, comenzamos definiendo las variables del entorno que requiere la aplicación.
 
 ```
