@@ -26,6 +26,10 @@ Una vez iniciemos el entorno virtual, instalaremos la paquetería requerida:
 
 `pip install -r requirements.txt`
 
+## Creación de usuario, base de datos y tablas.
+
+Seguiremos los pasos mencionados en el fichero [2asir.sql](2asir.sql)
+
 ## Ejecución del programa python.
 
 Podemos encontrar los ficheros [programa.py](Programa/programa.py) y [funciones.py](Programa/funciones.py) dentro del directorio "Programa".
