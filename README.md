@@ -32,5 +32,46 @@ Podemos encontrar los ficheros [programa.py](Programa/programa.py) y [funciones.
 
 ### Comprobación del funcionamiento:
 
-![Comprobación programa python](Programa/Ejecución-programa(Pruebas).png)
+![Comprobación programa python](Programa/img/Ejecución-programa(Pruebas).png)
+
+## Ejecución de la aplicación Flask
+
+Antes que nada, comenzamos definiendo las variables del entorno que requiere la aplicación.
+
+```
+export PORT=4040
+export BDNAME=2asir
+export HOST=localhost 
+```
+
+Podemos ver nuestras variables del entorno con el comando:
+`printenv`
+
+### Comprobación del funcionamiento:
+
+Ejecutamos la aplicación:
+
+`python3 app.py`
+
+![Ejecución aplicación](Aplicación-Flask/img/Iniciamos_app.png)
+
+Accedemos desde el navegador web, definiendo puerto definido:
+
+![Login](Aplicación-Flask/img/login.png)
+
+Como vemos, se muestra la ventana de Login.
+
+Probaremos a introducir unas credenciales incorrectas:
+
+![Login con credenciales incorrectas](Aplicación-Flask/img/login_credenciales_incorrectas.png)
+
+Vemos que nos redirecciona de nuevo a la página de login, y además nos muestra un mensaje indicando que las credenciales introducidas son incorrectas.
+
+Ahora sí, accedemos con las credenciales del usuario de la base de datos:
+
+![Inicio](Aplicación-Flask/img/inicio.png)
+
+Como vemos, se muestra la página de inicio, con información sobre una consulta referente a las tablas "Profesor" y "Asignatura".
+
+
 
