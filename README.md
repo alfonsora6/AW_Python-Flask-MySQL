@@ -28,7 +28,7 @@ Una vez iniciemos el entorno virtual, instalaremos la paquetería requerida:
 
 ## Ejecución del programa python.
 
-Podemos encontrar los fichero programa.py y funciones.py dentro del directorio "Programa".
+Podemos encontrar los ficheros [programa.py](Programa/programa.py) y [funciones.py](Programa/funciones.py) dentro del directorio "Programa".
 
 ### Comprobación del funcionamiento:
 
