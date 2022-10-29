@@ -4,7 +4,7 @@
 
 CREATE DATABASE 2asir;
 CREATE USER 'alfonso'@'%' IDENTIFIED BY 'passbd';
-GRANT ALL PRIVILEGES ON alumnos.* to 'alfonso'@'%';
+GRANT ALL PRIVILEGES ON 2asir.* to 'alfonso'@'%';
 FLUSH PRIVILEGES;
 USE 2asir;
 
