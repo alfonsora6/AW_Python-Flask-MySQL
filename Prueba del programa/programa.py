@@ -9,3 +9,5 @@ contraseña=getpass.getpass("Introduce contraseña: ")
 db=Conectar_BD(maquina,usuario,contraseña,nombrebd)
 Mostrar_profesores_y_asignaturas(db)
 Desconectar_BD(db)
+
+print("\nFin del programa")
