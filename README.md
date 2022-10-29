@@ -28,5 +28,5 @@ Una vez iniciemos el entorno virtual, instalaremos la paquetería requerida:
 
 ## Ejecución del programa python.
 
-![Comprobación programa python](Prueba del programa/Ejecución-programa(Pruebas).png)
+![Comprobación programa python](Prueba\ del\ programa/Ejecución-programa(Pruebas).png)
 
