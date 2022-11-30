@@ -21,8 +21,6 @@ def inicio():
     if request.method == 'POST' and 'usuario' in request.form and 'contraseña' in request.form:
         usuario=request.form.get("usuario")
         contraseña=request.form.get("contraseña")
-        nombrebd="2asir"
-        maquina="localhost"
         db=Conectar_BD(maquina,usuario,contraseña,nombrebd)
         if db is not None:
             registros=Mostrar_profesores_y_asignaturas(db)
